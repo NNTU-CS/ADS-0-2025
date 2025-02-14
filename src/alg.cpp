@@ -1,26 +1,26 @@
 // Copyright 2021 NNTU-CS
 
-int gcd(int x, int y) {
+int gcd(int a, int b) {
   int nod = 0;
   while (!nod) {
-    if (x > y) {
-      for (int i = y; i; i--) {
-        if (((y % i) == 0) && ((x % i) == 0)) {
+    if (a > b) {
+      for (int i = b; i; i--) {
+        if (((b % i) == 0) && ((a % i) == 0)) {
           nod = i;
           break;
         }
       }
     }
-    if (x < y) {
-      for (int i = x; i; i--) {
-        if (((y % i) == 0) && ((x % i) == 0)) {
+    if (a < b) {
+      for (int i = a; i; i--) {
+        if (((b % i) == 0) && ((a % i) == 0)) {
           nod = i;
           break;
         }
       }
     }
-    if (x == y) {
-      nod = x;
+    if (a == b) {
+      nod = a;
     }
   }
   return nod;
