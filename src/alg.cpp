@@ -22,7 +22,7 @@ int gcd(int x, int y) {
 		}
 		if (x == y) {
 			nod = x;
-		}
+        }
 	}
 	return nod;
 }
