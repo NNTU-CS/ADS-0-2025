@@ -1,7 +1,6 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int x, int y) {
-
   int nod = 0;
   while (!nod) {
     if (x > y) {
