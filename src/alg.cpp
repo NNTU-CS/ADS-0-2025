@@ -1,5 +1,8 @@
 // Copyright 2021 NNTU-CS
 
-int gcd(int a, int b) {
+#include <iostream>
+#include "alg.h"
 
+int main() {
+    return 0;
 }
