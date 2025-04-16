@@ -5,6 +5,6 @@ int gcd(int a, int b) {
     int tempik = b;
     b = a % b;
     a = tempik;
-    }
-return a;
+}
+  return a;
 }
