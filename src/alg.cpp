@@ -1,5 +1,10 @@
 // Copyright 2021 NNTU-CS
 
 int gcd(int a, int b) {
-	return 1;
+   while (b != 0) {
+    int tempik = b;
+    b = a % b;
+    a = tempik;
+  }
+  return a;
 }
